@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T01:05:11+00:00",
+  "generatedAt": "2026-11-01T01:07:15+00:00",
   "sets": {
     "TX-plumbing": {
       "set": "TX plumbing",
@@ -126,18 +126,17 @@
     },
     "MA-plumbing": {
       "set": "MA plumbing",
-      "status": "needs_review",
-      "checkedAt": null,
+      "status": "verified",
+      "checkedAt": "2026-11-01",
       "lastAttempt": "2026-11-01",
       "sources": [
         "https://www.law.cornell.edu/regulations/massachusetts/248-CMR-11-02"
       ],
       "confirmed": [
+        "ojt",
         "classroom"
       ],
-      "problems": [
-        "ojt: the page says 8000, requirements.json says 6800"
-      ]
+      "problems": []
     }
   }
 }
