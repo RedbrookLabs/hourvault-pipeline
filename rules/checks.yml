@@ -40,13 +40,6 @@
     - field: cat:Residential
       pattern: 'hours lawful commercial and (?P<n>[\d,]+) hours lawful residential'
 
-- set: MI plumbing
-  sources:
-    - https://www.michigan.gov/lara/bureau-list/bcc/sections/licensing-section/exam-lic/plumbing-examination-licensing-registration-application-information
-  facts:
-    - field: ojt
-      pattern: 'not less than (?P<n>[\d,]+) hours experience attained over a period of not less than'
-
 - set: MN plumbing
   sources:
     - https://www.revisor.mn.gov/rules/4716.0020/

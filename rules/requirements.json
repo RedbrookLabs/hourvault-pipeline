@@ -173,31 +173,6 @@
       ]
     },
     {
-      "id": "MI-plumbing",
-      "state": "MI",
-      "stateName": "Michigan",
-      "trade": "plumbing",
-      "credential": "Journey Plumber",
-      "board": "Michigan Board of Plumbing (LARA)",
-      "ojtTarget": 6000,
-      "classroomTarget": 0,
-      "notes": "At least 6,000 hours of experience gained over at least 3 years as an apprentice plumber under a master plumber. MCL 339.6115 sets no classroom-hour minimum.",
-      "sourceURL": "https://www.michigan.gov/lara/bureau-list/bcc/sections/licensing-section/exam-lic/plumbing-examination-licensing-registration-application-information",
-      "version": 2,
-      "checklist": [
-        {
-          "id": "register",
-          "title": "Register as a plumbing apprentice with LARA",
-          "detail": "Hours count when earned as an actively registered apprentice in practical plumbing installation under a licensed master or journey plumber, over at least three years."
-        },
-        {
-          "id": "school",
-          "title": "Trade school credit",
-          "detail": "A graduate of a recognized trade school can be credited up to 2,000 of the 6,000 hours (R 338.922). If that applies to you, switch to Custom hours and enter what you still need."
-        }
-      ]
-    },
-    {
       "id": "MN-plumbing",
       "state": "MN",
       "stateName": "Minnesota",
