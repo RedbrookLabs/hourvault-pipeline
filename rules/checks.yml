@@ -38,7 +38,7 @@
 
 - set: MI plumbing
   sources:
-    - https://zeus-milenia.legislature.mi.gov/documents/mcl/pdf/MCL-339-6115.pdf
+    - https://ombudsman.legislature.mi.gov/documents/mcl/pdf/MCL-339-6115.pdf
   facts:
     - field: ojt
       pattern: 'at least (?P<n>[\d,]+) hours of experience gained over a period of at least'
