@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T01:07:15+00:00",
+  "generatedAt": "2026-11-01T01:09:20+00:00",
   "sets": {
     "TX-plumbing": {
       "set": "TX plumbing",
@@ -49,11 +49,11 @@
       "checkedAt": null,
       "lastAttempt": "2026-11-01",
       "sources": [
-        "https://zeus-milenia.legislature.mi.gov/documents/mcl/pdf/MCL-339-6115.pdf"
+        "https://ombudsman.legislature.mi.gov/documents/mcl/pdf/MCL-339-6115.pdf"
       ],
       "confirmed": [],
       "problems": [
-        "Could not read https://zeus-milenia.legislature.mi.gov/documents/mcl/pdf/MCL-339-6115.pdf: ConnectTimeout: HTTPSConnectionPool(host='zeus-milenia.legislature.mi.gov', port=443): Max retries exceeded with url: /documents/mcl/pdf/MCL-339-6115.pdf (Caused by ConnectTimeoutError(<HTTPSConnectio",
+        "Could not read https://ombudsman.legislature.mi.gov/documents/mcl/pdf/MCL-339-6115.pdf: SSLError: HTTPSConnectionPool(host='ombudsman.legislature.mi.gov', port=443): Max retries exceeded with url: /documents/mcl/pdf/MCL-339-6115.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: ",
         "ojt: not found (a source page could not be read): 'at least (?P<n>[\\d,]+) hours of experience gained over a period of at least'"
       ]
     },
