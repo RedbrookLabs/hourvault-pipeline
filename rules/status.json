@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T04:51:13+00:00",
+  "generatedAt": "2026-11-01T06:23:10+00:00",
   "sets": {
     "TX-plumbing": {
       "set": "TX plumbing",
@@ -44,20 +44,6 @@
         "cat:Residential"
       ],
       "problems": []
-    },
-    "MI-plumbing": {
-      "set": "MI plumbing",
-      "status": "needs_review",
-      "checkedAt": null,
-      "lastAttempt": "2026-11-01",
-      "sources": [
-        "https://www.michigan.gov/lara/bureau-list/bcc/sections/licensing-section/exam-lic/plumbing-examination-licensing-registration-application-information"
-      ],
-      "confirmed": [],
-      "problems": [
-        "Could not read https://www.michigan.gov/lara/bureau-list/bcc/sections/licensing-section/exam-lic/plumbing-examination-licensing-registration-application-information: HTTP 403",
-        "ojt: not found (a source page could not be read): 'not less than (?P<n>[\\d,]+) hours experience attained over a period of not less than'"
-      ]
     },
     "MN-plumbing": {
       "set": "MN plumbing",
