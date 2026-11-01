@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T01:11:35+00:00",
+  "generatedAt": "2026-11-01T04:51:13+00:00",
   "sets": {
     "TX-plumbing": {
       "set": "TX plumbing",
@@ -39,7 +39,9 @@
       ],
       "confirmed": [
         "ojt",
-        "classroom"
+        "classroom",
+        "cat:Commercial",
+        "cat:Residential"
       ],
       "problems": []
     },
@@ -66,7 +68,10 @@
         "https://www.revisor.mn.gov/rules/4716.0020/"
       ],
       "confirmed": [
-        "ojt"
+        "ojt",
+        "cat:Water Supply",
+        "cat:Drainage/Waste/Vent",
+        "cat:Fixtures"
       ],
       "problems": []
     },
@@ -79,7 +84,8 @@
         "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/"
       ],
       "confirmed": [
-        "ojt"
+        "ojt",
+        "cat:Commercial"
       ],
       "problems": []
     },
@@ -135,6 +141,58 @@
       "confirmed": [
         "ojt",
         "classroom"
+      ],
+      "problems": []
+    },
+    "CO-plumbing-residential": {
+      "set": "CO plumbing residential",
+      "status": "verified",
+      "checkedAt": "2026-11-01",
+      "lastAttempt": "2026-11-01",
+      "sources": [
+        "https://dpo.colorado.gov/Plumbing/Applications"
+      ],
+      "confirmed": [
+        "ojt"
+      ],
+      "problems": []
+    },
+    "CO-plumbing-master": {
+      "set": "CO plumbing master",
+      "status": "verified",
+      "checkedAt": "2026-11-01",
+      "lastAttempt": "2026-11-01",
+      "sources": [
+        "https://dpo.colorado.gov/Plumbing/Applications"
+      ],
+      "confirmed": [
+        "ojt"
+      ],
+      "problems": []
+    },
+    "WA-plumbing-residential-specialty": {
+      "set": "WA plumbing residential-specialty",
+      "status": "verified",
+      "checkedAt": "2026-11-01",
+      "lastAttempt": "2026-11-01",
+      "sources": [
+        "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/"
+      ],
+      "confirmed": [
+        "ojt"
+      ],
+      "problems": []
+    },
+    "WA-plumbing-residential-service": {
+      "set": "WA plumbing residential-service",
+      "status": "verified",
+      "checkedAt": "2026-11-01",
+      "lastAttempt": "2026-11-01",
+      "sources": [
+        "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/"
+      ],
+      "confirmed": [
+        "ojt"
       ],
       "problems": []
     }
