@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T01:09:20+00:00",
+  "generatedAt": "2026-11-01T01:11:35+00:00",
   "sets": {
     "TX-plumbing": {
       "set": "TX plumbing",
@@ -49,12 +49,12 @@
       "checkedAt": null,
       "lastAttempt": "2026-11-01",
       "sources": [
-        "https://ombudsman.legislature.mi.gov/documents/mcl/pdf/MCL-339-6115.pdf"
+        "https://www.michigan.gov/lara/bureau-list/bcc/sections/licensing-section/exam-lic/plumbing-examination-licensing-registration-application-information"
       ],
       "confirmed": [],
       "problems": [
-        "Could not read https://ombudsman.legislature.mi.gov/documents/mcl/pdf/MCL-339-6115.pdf: SSLError: HTTPSConnectionPool(host='ombudsman.legislature.mi.gov', port=443): Max retries exceeded with url: /documents/mcl/pdf/MCL-339-6115.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: ",
-        "ojt: not found (a source page could not be read): 'at least (?P<n>[\\d,]+) hours of experience gained over a period of at least'"
+        "Could not read https://www.michigan.gov/lara/bureau-list/bcc/sections/licensing-section/exam-lic/plumbing-examination-licensing-registration-application-information: HTTP 403",
+        "ojt: not found (a source page could not be read): 'not less than (?P<n>[\\d,]+) hours experience attained over a period of not less than'"
       ]
     },
     "MN-plumbing": {
