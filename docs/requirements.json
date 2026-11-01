@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedOn": "2026-10-31",
+  "updatedOn": "2026-11-01",
   "categories": {
     "plumbing": [
       "Water Supply",
@@ -59,8 +59,8 @@
       "notes": "8,000 hours of supervised plumbing installation work while holding an active Idaho apprentice registration, plus 576 hours of instruction at a board-approved apprenticeship program. A work-experience-only pathway also exists.",
       "sourceURL": "https://dopl.idaho.gov/wp-content/uploads/2024/09/PLB-Journeyman-Application.pdf",
       "version": 1,
-      "verified": false,
-      "verifiedAt": null,
+      "verified": true,
+      "verifiedAt": "2026-11-01",
       "sourceURLs": [
         "https://dopl.idaho.gov/wp-content/uploads/2024/09/PLB-Journeyman-Application.pdf"
       ]
@@ -77,8 +77,8 @@
       "notes": "At least 8,000 hours of on-the-job training before the written and manual journeyman exam. Louisiana Workforce Commission-registered apprenticeships can change the hours; confirm with your sponsor and add classroom hours if your program requires them.",
       "sourceURL": "https://legis.la.gov/Legis/ViewDocument.aspx?d=1320642",
       "version": 1,
-      "verified": false,
-      "verifiedAt": null,
+      "verified": true,
+      "verifiedAt": "2026-11-01",
       "sourceURLs": [
         "https://legis.la.gov/Legis/ViewDocument.aspx?d=1320642"
       ]
@@ -131,8 +131,8 @@
       "notes": "Four years of practical plumbing experience as a registered apprentice; one year counts as at least 1,750 hours (4 x 1,750 = 7,000). Minn. R. 4716.0020 also sets minimums for water distribution, DWV and fixture work.",
       "sourceURL": "https://www.revisor.mn.gov/rules/4716.0020/",
       "version": 1,
-      "verified": false,
-      "verifiedAt": null,
+      "verified": true,
+      "verifiedAt": "2026-11-01",
       "sourceURLs": [
         "https://www.revisor.mn.gov/rules/4716.0020/"
       ]
@@ -149,8 +149,8 @@
       "notes": "3,850 hours of commercial and 3,850 hours of residential on-the-job experience, plus 576 hours of academic classroom training (OAR 918-695-0030). Tag your entries Commercial vs residential categories to track the split.",
       "sourceURL": "https://www.oregon.gov/bcd/Formslibrary/2571.pdf",
       "version": 1,
-      "verified": false,
-      "verifiedAt": null,
+      "verified": true,
+      "verifiedAt": "2026-11-01",
       "sourceURLs": [
         "https://www.oregon.gov/bcd/Formslibrary/2571.pdf"
       ]
@@ -171,8 +171,8 @@
         "https://tsbpe.texas.gov/license-types/journeyman"
       ],
       "version": 1,
-      "verified": false,
-      "verifiedAt": null
+      "verified": true,
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "UT-plumbing",
@@ -186,8 +186,8 @@
       "notes": "Completion of a plumber's apprenticeship education program (576 classroom hours) and 8,000 hours of licensed plumbing experience under a licensed journeyman or master plumber. A 16,000-hour experience-only path also exists.",
       "sourceURL": "https://commerce.utah.gov/dopl/plumbing/apply-for-a-journeyman-plumber-license/",
       "version": 1,
-      "verified": false,
-      "verifiedAt": null,
+      "verified": true,
+      "verifiedAt": "2026-11-01",
       "sourceURLs": [
         "https://commerce.utah.gov/dopl/plumbing/apply-for-a-journeyman-plumber-license/"
       ]
@@ -204,8 +204,8 @@
       "notes": "Four years or more (at least 8,000 hours) as a certified plumber trainee under a journey level plumber; at least 4,000 hours must be commercial or industrial. Hours only count while your trainee certificate is current.",
       "sourceURL": "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/",
       "version": 1,
-      "verified": false,
-      "verifiedAt": null,
+      "verified": true,
+      "verifiedAt": "2026-11-01",
       "sourceURLs": [
         "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/"
       ]

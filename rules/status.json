@@ -1,0 +1,143 @@
+{
+  "generatedAt": "2026-11-01T01:02:42+00:00",
+  "sets": {
+    "TX-plumbing": {
+      "set": "TX plumbing",
+      "status": "verified",
+      "checkedAt": "2026-11-01",
+      "lastAttempt": "2026-11-01",
+      "sources": [
+        "https://tsbpe.texas.gov/wp-content/uploads/forms/TSBPE_JourneymanPlumberExamationApplication.pdf",
+        "https://tsbpe.texas.gov/license-types/journeyman"
+      ],
+      "confirmed": [
+        "ojt",
+        "classroom"
+      ],
+      "problems": []
+    },
+    "LA-plumbing": {
+      "set": "LA plumbing",
+      "status": "verified",
+      "checkedAt": "2026-11-01",
+      "lastAttempt": "2026-11-01",
+      "sources": [
+        "https://legis.la.gov/Legis/ViewDocument.aspx?d=1320642"
+      ],
+      "confirmed": [
+        "ojt"
+      ],
+      "problems": []
+    },
+    "OR-plumbing": {
+      "set": "OR plumbing",
+      "status": "verified",
+      "checkedAt": "2026-11-01",
+      "lastAttempt": "2026-11-01",
+      "sources": [
+        "https://www.oregon.gov/bcd/Formslibrary/2571.pdf"
+      ],
+      "confirmed": [
+        "ojt",
+        "classroom"
+      ],
+      "problems": []
+    },
+    "MI-plumbing": {
+      "set": "MI plumbing",
+      "status": "needs_review",
+      "checkedAt": null,
+      "lastAttempt": "2026-11-01",
+      "sources": [
+        "https://zeus-milenia.legislature.mi.gov/documents/mcl/pdf/MCL-339-6115.pdf"
+      ],
+      "confirmed": [],
+      "problems": [
+        "Could not read https://zeus-milenia.legislature.mi.gov/documents/mcl/pdf/MCL-339-6115.pdf: ConnectTimeout: HTTPSConnectionPool(host='zeus-milenia.legislature.mi.gov', port=443): Max retries exceeded with url: /documents/mcl/pdf/MCL-339-6115.pdf (Caused by ConnectTimeoutError(<HTTPSConnectio",
+        "ojt: not found (a source page could not be read): 'at least (?P<n>[\\d,]+) hours of experience gained over a period of at least'"
+      ]
+    },
+    "MN-plumbing": {
+      "set": "MN plumbing",
+      "status": "verified",
+      "checkedAt": "2026-11-01",
+      "lastAttempt": "2026-11-01",
+      "sources": [
+        "https://www.revisor.mn.gov/rules/4716.0020/"
+      ],
+      "confirmed": [
+        "ojt"
+      ],
+      "problems": []
+    },
+    "WA-plumbing": {
+      "set": "WA plumbing",
+      "status": "verified",
+      "checkedAt": "2026-11-01",
+      "lastAttempt": "2026-11-01",
+      "sources": [
+        "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/"
+      ],
+      "confirmed": [
+        "ojt"
+      ],
+      "problems": []
+    },
+    "ID-plumbing": {
+      "set": "ID plumbing",
+      "status": "verified",
+      "checkedAt": "2026-11-01",
+      "lastAttempt": "2026-11-01",
+      "sources": [
+        "https://dopl.idaho.gov/wp-content/uploads/2024/09/PLB-Journeyman-Application.pdf"
+      ],
+      "confirmed": [
+        "ojt",
+        "classroom"
+      ],
+      "problems": []
+    },
+    "CO-plumbing": {
+      "set": "CO plumbing",
+      "status": "needs_review",
+      "checkedAt": null,
+      "lastAttempt": "2026-11-01",
+      "sources": [
+        "https://dpo.colorado.gov/Plumbing/Applications"
+      ],
+      "confirmed": [],
+      "problems": [
+        "ojt: not found (the page no longer says it): 'journeyworker plumber.{0,160}?four years \\((?P<n>[\\d,]+) hours\\) of practical experience'"
+      ]
+    },
+    "UT-plumbing": {
+      "set": "UT plumbing",
+      "status": "verified",
+      "checkedAt": "2026-11-01",
+      "lastAttempt": "2026-11-01",
+      "sources": [
+        "https://commerce.utah.gov/dopl/plumbing/apply-for-a-journeyman-plumber-license/"
+      ],
+      "confirmed": [
+        "ojt",
+        "classroom"
+      ],
+      "problems": []
+    },
+    "MA-plumbing": {
+      "set": "MA plumbing",
+      "status": "needs_review",
+      "checkedAt": null,
+      "lastAttempt": "2026-11-01",
+      "sources": [
+        "https://www.mass.gov/doc/248-cmr-1100/download"
+      ],
+      "confirmed": [],
+      "problems": [
+        "Could not read https://www.mass.gov/doc/248-cmr-1100/download: HTTP 403",
+        "ojt: not found (a source page could not be read): 'totals no less than (?P<n>[\\d,]+) clock hours'",
+        "classroom: not found (a source page could not be read): '(?P<n>[\\d,]+) clock hours of plumbing and gasfitting theory'"
+      ]
+    }
+  }
+}
