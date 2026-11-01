@@ -429,19 +429,6 @@
       "ojtTarget": 4000,
       "notes": "At least 2 years and 4,000 hours of plumbing installation work as a licensed trainee plumber under a master plumber. A journeyman-in-training license after a board-approved plumbing course needs 2,000 hours instead; set your own hours if that is your route.",
       "sourceURL": "https://legislature.maine.gov/statutes/32/title32sec3501.html"
-    },
-    {
-      "trade": "plumbing",
-      "classroomTarget": 0,
-      "version": 2,
-      "id": "NH-plumbing",
-      "state": "NH",
-      "stateName": "New Hampshire",
-      "credential": "Journeyman Plumber",
-      "board": "NH Office of Professional Licensure and Certification (Mechanical Licensing Board)",
-      "ojtTarget": 8000,
-      "notes": "A four-year plumbing apprenticeship (8,000 hours) with a completion certificate. The state also requires related classroom instruction each year of the apprenticeship, but published hour counts differ, so set your own classroom hours from your program.",
-      "sourceURL": "https://www.nhes.nh.gov/elmi/products/licertocc/documents/plumbjou.pdf"
     }
   ],
   "commonChecklist": [

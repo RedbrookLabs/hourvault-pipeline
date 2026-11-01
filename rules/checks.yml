@@ -147,10 +147,3 @@
   facts:
     - field: ojt
       pattern: 'at least 2 years with (?P<n>[\d,]+) hours of work in the field of plumbing installations as a licensed trainee'
-
-- set: NH plumbing
-  sources:
-    - https://www.nhes.nh.gov/elmi/products/licertocc/documents/plumbjou.pdf
-  facts:
-    - field: ojt
-      pattern: 'four-year apprenticeship in plumbing \((?P<n>[\d,]+) hours\)'
