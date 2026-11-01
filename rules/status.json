@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T06:43:42+00:00",
+  "generatedAt": "2026-11-01T06:45:34+00:00",
   "sets": {
     "TX-plumbing": {
       "set": "TX plumbing",
@@ -221,20 +221,6 @@
         "ojt"
       ],
       "problems": []
-    },
-    "NH-plumbing": {
-      "set": "NH plumbing",
-      "status": "needs_review",
-      "checkedAt": null,
-      "lastAttempt": "2026-11-01",
-      "sources": [
-        "https://www.nhes.nh.gov/elmi/products/licertocc/documents/plumbjou.pdf"
-      ],
-      "confirmed": [],
-      "problems": [
-        "Could not read https://www.nhes.nh.gov/elmi/products/licertocc/documents/plumbjou.pdf: HTTP 404",
-        "ojt: not found (a source page could not be read): 'four-year apprenticeship in plumbing \\((?P<n>[\\d,]+) hours\\)'"
-      ]
     }
   }
 }

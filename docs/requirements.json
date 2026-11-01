@@ -506,24 +506,6 @@
       "sourceURLs": [
         "https://legislature.maine.gov/statutes/32/title32sec3501.html"
       ]
-    },
-    {
-      "trade": "plumbing",
-      "classroomTarget": 0,
-      "version": 2,
-      "id": "NH-plumbing",
-      "state": "NH",
-      "stateName": "New Hampshire",
-      "credential": "Journeyman Plumber",
-      "board": "NH Office of Professional Licensure and Certification (Mechanical Licensing Board)",
-      "ojtTarget": 8000,
-      "notes": "A four-year plumbing apprenticeship (8,000 hours) with a completion certificate. The state also requires related classroom instruction each year of the apprenticeship, but published hour counts differ, so set your own classroom hours from your program.",
-      "sourceURL": "https://www.nhes.nh.gov/elmi/products/licertocc/documents/plumbjou.pdf",
-      "verified": false,
-      "verifiedAt": null,
-      "sourceURLs": [
-        "https://www.nhes.nh.gov/elmi/products/licertocc/documents/plumbjou.pdf"
-      ]
     }
   ],
   "commonChecklist": [
