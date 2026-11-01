@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T01:02:42+00:00",
+  "generatedAt": "2026-11-01T01:05:11+00:00",
   "sets": {
     "TX-plumbing": {
       "set": "TX plumbing",
@@ -99,16 +99,16 @@
     },
     "CO-plumbing": {
       "set": "CO plumbing",
-      "status": "needs_review",
-      "checkedAt": null,
+      "status": "verified",
+      "checkedAt": "2026-11-01",
       "lastAttempt": "2026-11-01",
       "sources": [
         "https://dpo.colorado.gov/Plumbing/Applications"
       ],
-      "confirmed": [],
-      "problems": [
-        "ojt: not found (the page no longer says it): 'journeyworker plumber.{0,160}?four years \\((?P<n>[\\d,]+) hours\\) of practical experience'"
-      ]
+      "confirmed": [
+        "ojt"
+      ],
+      "problems": []
     },
     "UT-plumbing": {
       "set": "UT plumbing",
@@ -130,13 +130,13 @@
       "checkedAt": null,
       "lastAttempt": "2026-11-01",
       "sources": [
-        "https://www.mass.gov/doc/248-cmr-1100/download"
+        "https://www.law.cornell.edu/regulations/massachusetts/248-CMR-11-02"
       ],
-      "confirmed": [],
+      "confirmed": [
+        "classroom"
+      ],
       "problems": [
-        "Could not read https://www.mass.gov/doc/248-cmr-1100/download: HTTP 403",
-        "ojt: not found (a source page could not be read): 'totals no less than (?P<n>[\\d,]+) clock hours'",
-        "classroom: not found (a source page could not be read): '(?P<n>[\\d,]+) clock hours of plumbing and gasfitting theory'"
+        "ojt: the page says 8000, requirements.json says 6800"
       ]
     }
   }
