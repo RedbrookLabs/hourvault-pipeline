@@ -125,3 +125,32 @@
     - field: ojt
       pattern: 'two years or more \(at least (?P<n>[\d,]+) hours\) working as a plumber trainee under the supervision of a journey level, residential specialty, or residential service'
 
+- set: AK plumbing
+  sources:
+    - https://dol.alaska.gov/lss/mi-license-req.html
+  facts:
+    - field: ojt
+      pattern: '(?P<n>[\d,]+) hours of legally obtained work in installation of commercial/residential plumbing'
+
+- set: TX plumbing tradesman-limited
+  sources:
+    - https://tsbpe.texas.gov/license-types/tradesman/
+  facts:
+    - field: ojt
+      pattern: 'at least (?P<n>[\d,]+) hours of experience working in the plumbing trade'
+    - field: classroom
+      pattern: 'completed a (?P<n>\d+)-hour training course'
+
+- set: ME plumbing
+  sources:
+    - https://legislature.maine.gov/statutes/32/title32sec3501.html
+  facts:
+    - field: ojt
+      pattern: 'at least 2 years with (?P<n>[\d,]+) hours of work in the field of plumbing installations as a licensed trainee'
+
+- set: NH plumbing
+  sources:
+    - https://www.nhes.nh.gov/elmi/products/licertocc/documents/plumbjou.pdf
+  facts:
+    - field: ojt
+      pattern: 'four-year apprenticeship in plumbing \((?P<n>[\d,]+) hours\)'

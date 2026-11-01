@@ -389,6 +389,59 @@
       "notes": "Three years or more (at least 6,000 hours) working in the specialty as a trainee under a certified residential or journey level plumber. Limited to single-family dwellings, duplexes and apartment buildings of three stories or less.",
       "sourceURL": "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/",
       "version": 2
+    },
+    {
+      "trade": "plumbing",
+      "classroomTarget": 0,
+      "version": 2,
+      "id": "AK-plumbing",
+      "state": "AK",
+      "stateName": "Alaska",
+      "credential": "Journeyman Plumber (Certificate of Fitness)",
+      "board": "Alaska Department of Labor and Workforce Development, Mechanical Inspection",
+      "ojtTarget": 8000,
+      "notes": "8,000 hours of legally obtained commercial or residential plumbing installation work while holding a Plumber Trainee Certificate of Fitness. Up to 1,000 hours of trade-related classroom training can count toward the 8,000. Maintenance hours do not count. Work in Alaska without a valid trainee certificate is not counted.",
+      "sourceURL": "https://dol.alaska.gov/lss/mi-license-req.html"
+    },
+    {
+      "trade": "plumbing",
+      "classroomTarget": 24,
+      "version": 2,
+      "id": "TX-plumbing-tradesman-limited",
+      "state": "TX",
+      "stateName": "Texas",
+      "level": "tradesman-limited",
+      "credential": "Tradesman Plumber-Limited",
+      "board": "Texas State Board of Plumbing Examiners (TSBPE)",
+      "ojtTarget": 4000,
+      "notes": "4,000 hours of plumbing experience while registered as a Plumber's Apprentice, plus a 24-hour TSBPE-approved training course (not needed with an out-of-state journeyman or master license). Limited to one- and two-family dwellings.",
+      "sourceURL": "https://tsbpe.texas.gov/license-types/tradesman/"
+    },
+    {
+      "trade": "plumbing",
+      "classroomTarget": 0,
+      "version": 2,
+      "id": "ME-plumbing",
+      "state": "ME",
+      "stateName": "Maine",
+      "credential": "Journeyman Plumber",
+      "board": "Maine Plumbers' Examining Board",
+      "ojtTarget": 4000,
+      "notes": "At least 2 years and 4,000 hours of plumbing installation work as a licensed trainee plumber under a master plumber. A journeyman-in-training license after a board-approved plumbing course needs 2,000 hours instead; set your own hours if that is your route.",
+      "sourceURL": "https://legislature.maine.gov/statutes/32/title32sec3501.html"
+    },
+    {
+      "trade": "plumbing",
+      "classroomTarget": 0,
+      "version": 2,
+      "id": "NH-plumbing",
+      "state": "NH",
+      "stateName": "New Hampshire",
+      "credential": "Journeyman Plumber",
+      "board": "NH Office of Professional Licensure and Certification (Mechanical Licensing Board)",
+      "ojtTarget": 8000,
+      "notes": "A four-year plumbing apprenticeship (8,000 hours) with a completion certificate. The state also requires related classroom instruction each year of the apprenticeship, but published hour counts differ, so set your own classroom hours from your program.",
+      "sourceURL": "https://www.nhes.nh.gov/elmi/products/licertocc/documents/plumbjou.pdf"
     }
   ],
   "commonChecklist": [
