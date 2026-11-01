@@ -1,7 +1,7 @@
-/* CE Compass website. One stylesheet for every page. */
-:root{--bg:#0b1118;--card:#111b25;--line:rgba(255,255,255,.09);--text:#f1f6f4;--muted:#a3b3ad;--green:#4ade80;--ink:#04210f;--amber:#f5b64a;--max:960px}
+/* Hour Vault website. One stylesheet for every page. */
+:root{--bg:#121110;--card:#1c1a18;--line:rgba(255,255,255,.09);--text:#f6f2ec;--muted:#b0a89d;--green:#f29b5c;--ink:#2a1304;--amber:#7db8ea;--max:960px}
 *{box-sizing:border-box}
-body{margin:0;background:radial-gradient(1100px 560px at 80% -10%,rgba(74,222,128,.12),transparent 60%),var(--bg);color:var(--text);font:17px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+body{margin:0;background:radial-gradient(1100px 560px at 80% -10%,rgba(242,155,92,.14),transparent 60%),var(--bg);color:var(--text);font:17px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:var(--green);text-underline-offset:3px}
 :focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:6px}
 .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
