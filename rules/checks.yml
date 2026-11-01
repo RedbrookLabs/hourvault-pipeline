@@ -72,7 +72,7 @@
     - https://dpo.colorado.gov/Plumbing/Applications
   facts:
     - field: ojt
-      pattern: 'journeyworker plumber.{0,160}?four years \((?P<n>[\d,]+) hours\) of practical experience'
+      pattern: 'journeyworker plumber.{0,200}?(?:four|4) years \((?P<n>[\d,]+) hours\) of practical experience'
 
 - set: UT plumbing
   sources:
@@ -85,7 +85,7 @@
 
 - set: MA plumbing
   sources:
-    - https://www.mass.gov/doc/248-cmr-1100/download
+    - https://www.law.cornell.edu/regulations/massachusetts/248-CMR-11-02
   facts:
     - field: ojt
       pattern: 'totals no less than (?P<n>[\d,]+) clock hours'
