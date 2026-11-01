@@ -88,6 +88,6 @@
     - https://www.law.cornell.edu/regulations/massachusetts/248-CMR-11-02
   facts:
     - field: ojt
-      pattern: 'totals no less than (?P<n>[\d,]+) clock hours'
+      pattern: 'practical work experience that totals no less than (?P<n>[\d,]+) clock hours as a licensed apprentice'
     - field: classroom
       pattern: '(?P<n>[\d,]+) clock hours of plumbing and gasfitting theory'
