@@ -38,10 +38,10 @@
 
 - set: MI plumbing
   sources:
-    - https://ombudsman.legislature.mi.gov/documents/mcl/pdf/MCL-339-6115.pdf
+    - https://www.michigan.gov/lara/bureau-list/bcc/sections/licensing-section/exam-lic/plumbing-examination-licensing-registration-application-information
   facts:
     - field: ojt
-      pattern: 'at least (?P<n>[\d,]+) hours of experience gained over a period of at least'
+      pattern: 'not less than (?P<n>[\d,]+) hours experience attained over a period of not less than'
 
 - set: MN plumbing
   sources:
