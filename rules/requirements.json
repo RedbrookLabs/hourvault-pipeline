@@ -1,83 +1,452 @@
 {
   "schema": 1,
-  "updatedOn": "2026-10-31",
+  "updatedOn": "2026-11-01",
   "categories": {
-    "plumbing": ["Water Supply", "Drainage/Waste/Vent", "Fixtures", "Gas Piping", "Commercial", "Service/Repair", "Other"],
-    "hvac": ["Install", "Service/Maintenance", "Refrigeration", "Electrical/Controls", "Ductwork", "Other"],
-    "carpentry": ["Framing", "Finish", "Formwork", "Roofing", "Siding", "Other"]
+    "plumbing": [
+      "Water Supply",
+      "Drainage/Waste/Vent",
+      "Fixtures",
+      "Gas Piping",
+      "Residential",
+      "Commercial",
+      "Service/Repair",
+      "Other"
+    ],
+    "hvac": [
+      "Install",
+      "Service/Maintenance",
+      "Refrigeration",
+      "Electrical/Controls",
+      "Ductwork",
+      "Other"
+    ],
+    "carpentry": [
+      "Framing",
+      "Finish",
+      "Formwork",
+      "Roofing",
+      "Siding",
+      "Other"
+    ]
   },
   "templates": [
     {
-      "id": "CO-plumbing", "state": "CO", "stateName": "Colorado", "trade": "plumbing",
-      "credential": "Journeyworker Plumber", "board": "Colorado State Plumbing Board (DORA)",
-      "ojtTarget": 6800, "classroomTarget": 0,
+      "id": "CO-plumbing",
+      "state": "CO",
+      "stateName": "Colorado",
+      "trade": "plumbing",
+      "credential": "Journeyworker Plumber",
+      "board": "Colorado State Plumbing Board (DORA)",
+      "ojtTarget": 6800,
+      "classroomTarget": 0,
       "notes": "Four years (6,800 hours) of practical experience. One month of full-time experience counts as 163 hours. Colorado sets no separate classroom-hour minimum; add your program's classroom target if it has one.",
-      "sourceURL": "https://dpo.colorado.gov/Plumbing/Applications", "version": 1
+      "sourceURL": "https://dpo.colorado.gov/Plumbing/Applications",
+      "version": 2,
+      "checklist": [
+        {
+          "id": "months",
+          "title": "Count months of full-time work as 163 hours",
+          "detail": "Colorado treats one month of full-time experience as 163 hours when you document your experience.",
+          "url": "https://dpo.colorado.gov/Plumbing/Applications"
+        }
+      ]
     },
     {
-      "id": "ID-plumbing", "state": "ID", "stateName": "Idaho", "trade": "plumbing",
-      "credential": "Plumbing Journeyman", "board": "Idaho Plumbing Board (DOPL)",
-      "ojtTarget": 8000, "classroomTarget": 576,
+      "id": "CO-plumbing-residential",
+      "state": "CO",
+      "stateName": "Colorado",
+      "trade": "plumbing",
+      "level": "residential",
+      "credential": "Residential Plumber",
+      "board": "Colorado State Plumbing Board (DORA)",
+      "ojtTarget": 3400,
+      "classroomTarget": 0,
+      "notes": "Two years (3,400 hours) of practical experience for the residential plumber exam. One month of full-time work counts as 163 hours.",
+      "sourceURL": "https://dpo.colorado.gov/Plumbing/Applications",
+      "version": 2
+    },
+    {
+      "id": "CO-plumbing-master",
+      "state": "CO",
+      "stateName": "Colorado",
+      "trade": "plumbing",
+      "level": "master",
+      "credential": "Master Plumber",
+      "board": "Colorado State Plumbing Board (DORA)",
+      "ojtTarget": 8500,
+      "classroomTarget": 0,
+      "notes": "Five full-time years (8,500 hours) of practical experience for the master plumber exam. One month of full-time work counts as 163 hours.",
+      "sourceURL": "https://dpo.colorado.gov/Plumbing/Applications",
+      "version": 2
+    },
+    {
+      "id": "ID-plumbing",
+      "state": "ID",
+      "stateName": "Idaho",
+      "trade": "plumbing",
+      "credential": "Plumbing Journeyman",
+      "board": "Idaho Plumbing Board (DOPL)",
+      "ojtTarget": 8000,
+      "classroomTarget": 576,
       "notes": "8,000 hours of supervised plumbing installation work while holding an active Idaho apprentice registration, plus 576 hours of instruction at a board-approved apprenticeship program. A work-experience-only pathway also exists.",
-      "sourceURL": "https://dopl.idaho.gov/wp-content/uploads/2024/09/PLB-Journeyman-Application.pdf", "version": 1
+      "sourceURL": "https://dopl.idaho.gov/wp-content/uploads/2024/09/PLB-Journeyman-Application.pdf",
+      "version": 2,
+      "checklist": [
+        {
+          "id": "registration",
+          "title": "Keep your Idaho apprentice registration active",
+          "kind": "renewal",
+          "detail": "Hours earned in Idaho only count while you hold an active Idaho plumbing apprentice registration."
+        },
+        {
+          "id": "school",
+          "title": "Finish 576 hours at a board-approved apprenticeship program",
+          "detail": "Idaho colleges and training centers on the Plumbing Board's list. You can test after the 576 hours, but the license needs the 8,000 verified work hours too.",
+          "url": "https://dopl.idaho.gov/wp-content/uploads/2024/09/PLB-Journeyman-Application.pdf"
+        },
+        {
+          "id": "verify",
+          "title": "Get the Work Verification Form for your 8,000 hours",
+          "detail": "The application needs verified, supervised plumbing installation work. Hours can be earned in or out of Idaho."
+        }
+      ]
     },
     {
-      "id": "LA-plumbing", "state": "LA", "stateName": "Louisiana", "trade": "plumbing",
-      "credential": "Journeyman Plumber", "board": "State Plumbing Board of Louisiana",
-      "ojtTarget": 8000, "classroomTarget": 0,
+      "id": "LA-plumbing",
+      "state": "LA",
+      "stateName": "Louisiana",
+      "trade": "plumbing",
+      "credential": "Journeyman Plumber",
+      "board": "State Plumbing Board of Louisiana",
+      "ojtTarget": 8000,
+      "classroomTarget": 0,
       "notes": "At least 8,000 hours of on-the-job training before the written and manual journeyman exam. Louisiana Workforce Commission-registered apprenticeships can change the hours; confirm with your sponsor and add classroom hours if your program requires them.",
-      "sourceURL": "https://legis.la.gov/Legis/ViewDocument.aspx?d=1320642", "version": 1
+      "sourceURL": "https://legis.la.gov/Legis/ViewDocument.aspx?d=1320642",
+      "version": 2,
+      "checklist": [
+        {
+          "id": "path",
+          "title": "Confirm which path you're on",
+          "detail": "Louisiana's board licenses journeymen after 8,000 hours of on-the-job training. Programs registered with the Louisiana Workforce Commission can count differently, so ask your sponsor which one you're in."
+        }
+      ]
     },
     {
-      "id": "MA-plumbing", "state": "MA", "stateName": "Massachusetts", "trade": "plumbing",
-      "credential": "Journeyman Plumber", "board": "Board of State Examiners of Plumbers and Gas Fitters",
-      "ojtTarget": 6800, "classroomTarget": 550,
+      "id": "MA-plumbing",
+      "state": "MA",
+      "stateName": "Massachusetts",
+      "trade": "plumbing",
+      "credential": "Journeyman Plumber",
+      "board": "Board of State Examiners of Plumbers and Gas Fitters",
+      "ojtTarget": 6800,
+      "classroomTarget": 550,
       "notes": "6,800 clock hours of practical work experience as a licensed apprentice and 550 clock hours of plumbing and gasfitting theory over at least four years (no more than 165 education hours credited per calendar year). 248 CMR 11.02.",
-      "sourceURL": "https://www.mass.gov/doc/248-cmr-1100/download", "version": 1
+      "sourceURL": "https://www.mass.gov/doc/248-cmr-1100/download",
+      "version": 2,
+      "checklist": [
+        {
+          "id": "license",
+          "title": "Hold a Massachusetts apprentice plumber license",
+          "detail": "Hours count when worked as a licensed apprentice under a licensed master plumber, or a journeyman employed by a master."
+        },
+        {
+          "id": "start",
+          "title": "Start your education within nine months",
+          "detail": "Apprentices begin the plumbing education program within nine months of getting their apprentice license (248 CMR 11.02)."
+        },
+        {
+          "id": "pace",
+          "title": "Keep education and work in step",
+          "detail": "For each year you complete 165 hours of education (1.5 tiers) you need 1,700 hours of qualifying work experience."
+        },
+        {
+          "id": "renew",
+          "title": "Renew your apprentice license every two years",
+          "kind": "renewal",
+          "detail": "Apprentice licenses can't be renewed past ten years from the date first granted without Board approval."
+        },
+        {
+          "id": "exam",
+          "title": "Journeyman exam attempts",
+          "detail": "You can attempt the journeyman exam up to six times without special Board approval."
+        }
+      ]
     },
     {
-      "id": "MI-plumbing", "state": "MI", "stateName": "Michigan", "trade": "plumbing",
-      "credential": "Journey Plumber", "board": "Michigan Board of Plumbing (LARA)",
-      "ojtTarget": 6000, "classroomTarget": 0,
+      "id": "MI-plumbing",
+      "state": "MI",
+      "stateName": "Michigan",
+      "trade": "plumbing",
+      "credential": "Journey Plumber",
+      "board": "Michigan Board of Plumbing (LARA)",
+      "ojtTarget": 6000,
+      "classroomTarget": 0,
       "notes": "At least 6,000 hours of experience gained over at least 3 years as an apprentice plumber under a master plumber. MCL 339.6115 sets no classroom-hour minimum.",
-      "sourceURL": "https://www.michigan.gov/lara/bureau-list/bcc/sections/licensing-section/exam-lic/plumbing-examination-licensing-registration-application-information", "version": 1
+      "sourceURL": "https://www.michigan.gov/lara/bureau-list/bcc/sections/licensing-section/exam-lic/plumbing-examination-licensing-registration-application-information",
+      "version": 2,
+      "checklist": [
+        {
+          "id": "register",
+          "title": "Register as a plumbing apprentice with LARA",
+          "detail": "Hours count when earned as an actively registered apprentice in practical plumbing installation under a licensed master or journey plumber, over at least three years."
+        },
+        {
+          "id": "school",
+          "title": "Trade school credit",
+          "detail": "A graduate of a recognized trade school can be credited up to 2,000 of the 6,000 hours (R 338.922). If that applies to you, switch to Custom hours and enter what you still need."
+        }
+      ]
     },
     {
-      "id": "MN-plumbing", "state": "MN", "stateName": "Minnesota", "trade": "plumbing",
-      "credential": "Journeyman Plumber", "board": "Minnesota Department of Labor and Industry",
-      "ojtTarget": 7000, "classroomTarget": 0,
-      "notes": "Four years of practical plumbing experience as a registered apprentice; one year counts as at least 1,750 hours (4 x 1,750 = 7,000). Minn. R. 4716.0020 also sets minimums for water distribution, DWV and fixture work.",
-      "sourceURL": "https://www.revisor.mn.gov/rules/4716.0020/", "version": 1
+      "id": "MN-plumbing",
+      "state": "MN",
+      "stateName": "Minnesota",
+      "trade": "plumbing",
+      "credential": "Journeyman Plumber",
+      "board": "Minnesota Department of Labor and Industry",
+      "ojtTarget": 7000,
+      "classroomTarget": 0,
+      "notes": "Four years of practical plumbing experience as a registered apprentice; one year counts as at least 1,750 hours (4 x 1,750 = 7,000). Minn. R. 4716.0020 also sets minimums for water distribution, DWV and fixture work. Registered apprentices must include 2,000 hours of water distribution, 2,000 of drain/waste/vent and 1,000 of fixture installation inside those hours; the rest can be any plumbing work.",
+      "sourceURL": "https://www.revisor.mn.gov/rules/4716.0020/",
+      "version": 2,
+      "checklist": [
+        {
+          "id": "register",
+          "title": "Register as a plumbing apprentice in Minnesota",
+          "detail": "The four years of experience must be gained as a registered apprentice. One year counts as at least 1,750 hours."
+        },
+        {
+          "id": "process",
+          "title": "Track hours by type of work",
+          "detail": "Minnesota sets minimum hours for water distribution, drain-waste-vent and fixture installation work (Minn. R. 4716.0020, subp. 2). Tag each entry with a matching category and check the rule for your path.",
+          "url": "https://www.revisor.mn.gov/rules/4716.0020/"
+        }
+      ],
+      "categoryMinimums": [
+        {
+          "category": "Water Supply",
+          "hours": 2000,
+          "note": "Water distribution system installation"
+        },
+        {
+          "category": "Drainage/Waste/Vent",
+          "hours": 2000,
+          "note": "Drain, waste and vent system installation"
+        },
+        {
+          "category": "Fixtures",
+          "hours": 1000,
+          "note": "Fixture installation"
+        }
+      ]
     },
     {
-      "id": "OR-plumbing", "state": "OR", "stateName": "Oregon", "trade": "plumbing",
-      "credential": "Journeyman Plumber", "board": "Oregon State Plumbing Board (BCD)",
-      "ojtTarget": 7700, "classroomTarget": 576,
-      "notes": "3,850 hours of commercial and 3,850 hours of residential on-the-job experience, plus 576 hours of academic classroom training (OAR 918-695-0030). Tag your entries Commercial vs residential categories to track the split.",
-      "sourceURL": "https://www.oregon.gov/bcd/Formslibrary/2571.pdf", "version": 1
+      "id": "OR-plumbing",
+      "state": "OR",
+      "stateName": "Oregon",
+      "trade": "plumbing",
+      "credential": "Journeyman Plumber",
+      "board": "Oregon State Plumbing Board (BCD)",
+      "ojtTarget": 7700,
+      "classroomTarget": 576,
+      "notes": "3,850 hours of commercial and 3,850 hours of residential on-the-job experience, plus 576 hours of academic classroom training (OAR 918-695-0030). Hour Vault tracks the commercial / residential split from your categories.",
+      "sourceURL": "https://www.oregon.gov/bcd/Formslibrary/2571.pdf",
+      "version": 2,
+      "checklist": [
+        {
+          "id": "classroom",
+          "title": "Finish 576 hours of academic classroom training",
+          "detail": "In the subjects listed in OAR 918-695-0030(2)(a). Completing a four-year approved Oregon plumbing apprenticeship also qualifies.",
+          "url": "https://www.law.cornell.edu/regulations/oregon/Or-Admin-Code-SS-918-695-0030"
+        },
+        {
+          "id": "verify",
+          "title": "Verify your hours with the Plumbing Experience Verification form",
+          "detail": "The division only counts 2,000 hours of work experience per year toward a license (OAR 918-030-0030).",
+          "url": "https://www.oregon.gov/bcd/Formslibrary/2571.pdf"
+        }
+      ],
+      "categoryMinimums": [
+        {
+          "category": "Commercial",
+          "hours": 3850,
+          "note": "Lawful commercial on-the-job experience"
+        },
+        {
+          "category": "Residential",
+          "hours": 3850,
+          "note": "Lawful residential on-the-job experience"
+        }
+      ]
     },
     {
-      "id": "TX-plumbing", "state": "TX", "stateName": "Texas", "trade": "plumbing",
-      "credential": "Journeyman Plumber", "board": "Texas State Board of Plumbing Examiners (TSBPE)",
-      "ojtTarget": 8000, "classroomTarget": 48,
+      "id": "TX-plumbing",
+      "state": "TX",
+      "stateName": "Texas",
+      "trade": "plumbing",
+      "credential": "Journeyman Plumber",
+      "board": "Texas State Board of Plumbing Examiners (TSBPE)",
+      "ojtTarget": 8000,
+      "classroomTarget": 48,
       "notes": "8,000 hours under a Responsible Master Plumber while registered as a Plumber's Apprentice (or licensed Tradesman Plumber-Limited), plus the 48-hour TSBPE-approved training or a DOL-approved apprenticeship. A DOL-approved program can credit up to 1,000 OJT hours. Tradesman Plumber-Limited: 4,000 hours + 24-hour training.",
       "sourceURL": "https://tsbpe.texas.gov/wp-content/uploads/forms/TSBPE_JourneymanPlumberExamationApplication.pdf",
-      "sourceURLs": ["https://tsbpe.texas.gov/wp-content/uploads/forms/TSBPE_JourneymanPlumberExamationApplication.pdf", "https://tsbpe.texas.gov/license-types/journeyman"],
-      "version": 1
+      "sourceURLs": [
+        "https://tsbpe.texas.gov/wp-content/uploads/forms/TSBPE_JourneymanPlumberExamationApplication.pdf",
+        "https://tsbpe.texas.gov/license-types/journeyman"
+      ],
+      "version": 2,
+      "checklist": [
+        {
+          "id": "register",
+          "title": "Register as a Plumber's Apprentice",
+          "detail": "Hours worked before you register don't count. Must be 16 or older, $15 fee, fingerprint background check. A felony conviction needs a Supplemental Criminal History form.",
+          "url": "https://tsbpe.texas.gov/license-types/apprentice/"
+        },
+        {
+          "id": "renew",
+          "title": "Renew your apprentice registration every year",
+          "kind": "renewal",
+          "detail": "The expiration date is printed on your pocket card. TSBPE emails a renewal notice about 65 days before. Only hours worked while your registration is current count."
+        },
+        {
+          "id": "ecf",
+          "title": "Get an Employer's Certification Form from every employer",
+          "detail": "TSBPE proves your hours with signed Employer's Certification Forms, one per employer. Ask for one each time you leave a job.",
+          "url": "https://tsbpe.texas.gov/license-types/journeyman"
+        },
+        {
+          "id": "training",
+          "title": "Complete the 48-hour TSBPE-approved training",
+          "detail": "Or be enrolled in, or finish, a U.S. Department of Labor-approved apprenticeship program. TSBPE lists approved providers on its website."
+        },
+        {
+          "id": "exam",
+          "title": "Apply for the Journeyman Plumber exam",
+          "detail": "Send the application, your Employer's Certification Forms and the $40 fee.",
+          "url": "https://tsbpe.texas.gov/license-types/journeyman"
+        }
+      ]
     },
     {
-      "id": "UT-plumbing", "state": "UT", "stateName": "Utah", "trade": "plumbing",
-      "credential": "Journeyman Plumber", "board": "Utah Division of Professional Licensing (DOPL)",
-      "ojtTarget": 8000, "classroomTarget": 576,
+      "id": "UT-plumbing",
+      "state": "UT",
+      "stateName": "Utah",
+      "trade": "plumbing",
+      "credential": "Journeyman Plumber",
+      "board": "Utah Division of Professional Licensing (DOPL)",
+      "ojtTarget": 8000,
+      "classroomTarget": 576,
       "notes": "Completion of a plumber's apprenticeship education program (576 classroom hours) and 8,000 hours of licensed plumbing experience under a licensed journeyman or master plumber. A 16,000-hour experience-only path also exists.",
-      "sourceURL": "https://commerce.utah.gov/dopl/plumbing/apply-for-a-journeyman-plumber-license/", "version": 1
+      "sourceURL": "https://commerce.utah.gov/dopl/plumbing/apply-for-a-journeyman-plumber-license/",
+      "version": 2,
+      "checklist": [
+        {
+          "id": "license",
+          "title": "Work under an apprentice plumber license",
+          "detail": "Utah counts licensed plumbing experience under a licensed journeyman or master, plus the 576-hour apprenticeship education program."
+        },
+        {
+          "id": "process",
+          "title": "Spread hours across the required work areas",
+          "detail": "Utah's apprenticeship rule (R156-55c-302b) sets minimum hours for each area of plumbing work. Use categories to track them and confirm the table with your program.",
+          "url": "https://www.law.cornell.edu/regulations/utah/Utah-Admin-Code-R156-55c-302b"
+        }
+      ]
     },
     {
-      "id": "WA-plumbing", "state": "WA", "stateName": "Washington", "trade": "plumbing",
-      "credential": "Journey Level Plumber (PL01)", "board": "Washington Department of Labor & Industries",
-      "ojtTarget": 8000, "classroomTarget": 0,
+      "id": "WA-plumbing",
+      "state": "WA",
+      "stateName": "Washington",
+      "trade": "plumbing",
+      "credential": "Journey Level Plumber (PL01)",
+      "board": "Washington Department of Labor & Industries",
+      "ojtTarget": 8000,
+      "classroomTarget": 0,
       "notes": "Four years or more (at least 8,000 hours) as a certified plumber trainee under a journey level plumber; at least 4,000 hours must be commercial or industrial. Hours only count while your trainee certificate is current.",
-      "sourceURL": "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/", "version": 1
+      "sourceURL": "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/",
+      "version": 2,
+      "checklist": [
+        {
+          "id": "trainee",
+          "title": "Keep your plumber trainee certificate current",
+          "kind": "renewal",
+          "detail": "Washington hours aren't credited unless you held a current plumber trainee certificate when you worked them.",
+          "url": "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/"
+        },
+        {
+          "id": "document",
+          "title": "Keep your hours documented and signed",
+          "detail": "The 8,000 hours must be documented training under a certified journey level plumber."
+        }
+      ],
+      "categoryMinimums": [
+        {
+          "category": "Commercial",
+          "hours": 4000,
+          "note": "At least 4,000 of the 8,000 hours in commercial or industrial installations"
+        }
+      ]
+    },
+    {
+      "id": "WA-plumbing-residential-service",
+      "state": "WA",
+      "stateName": "Washington",
+      "trade": "plumbing",
+      "level": "residential-service",
+      "credential": "Residential Service Plumber (PL04)",
+      "board": "Washington Department of Labor & Industries",
+      "ojtTarget": 4000,
+      "classroomTarget": 0,
+      "notes": "Two years or more (at least 4,000 hours) as a plumber trainee under a journey level, residential specialty or residential service plumber. The first 2,000 hours must be under the direct supervision of a journey level or residential specialty plumber.",
+      "sourceURL": "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/",
+      "version": 2
+    },
+    {
+      "id": "WA-plumbing-residential-specialty",
+      "state": "WA",
+      "stateName": "Washington",
+      "trade": "plumbing",
+      "level": "residential-specialty",
+      "credential": "Residential Plumber (PL02)",
+      "board": "Washington Department of Labor & Industries",
+      "ojtTarget": 6000,
+      "classroomTarget": 0,
+      "notes": "Three years or more (at least 6,000 hours) working in the specialty as a trainee under a certified residential or journey level plumber. Limited to single-family dwellings, duplexes and apartment buildings of three stories or less.",
+      "sourceURL": "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/",
+      "version": 2
+    }
+  ],
+  "commonChecklist": [
+    {
+      "id": "registration",
+      "title": "Register or get licensed as an apprentice",
+      "detail": "Most boards only count hours worked while you hold a current apprentice registration or license. Register before you start counting hours."
+    },
+    {
+      "id": "renewal",
+      "title": "Keep your registration current",
+      "kind": "renewal",
+      "detail": "Apprentice registrations expire and have to be renewed. Add your due date and Hour Vault will remind you 30 and 7 days before."
+    },
+    {
+      "id": "background",
+      "title": "Finish the background check, if your board requires one",
+      "detail": "Many boards require fingerprints for a registration or license. A felony conviction can mean extra forms."
+    },
+    {
+      "id": "verification",
+      "title": "Get signed hour verification from every employer",
+      "detail": "Boards want proof of your hours signed by the employer or supervisor. Ask for it each time you change jobs and keep a copy."
+    },
+    {
+      "id": "classroom-proof",
+      "title": "Keep a certificate or transcript for every class",
+      "detail": "Related training hours are usually proven with a certificate or transcript from an approved provider."
+    },
+    {
+      "id": "exam",
+      "title": "Apply for the journeyman exam",
+      "detail": "Submit the application, fee and hour documentation once your hours and classes are complete."
     }
   ]
 }

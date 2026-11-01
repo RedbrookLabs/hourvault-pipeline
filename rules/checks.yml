@@ -35,6 +35,10 @@
       pattern: 'proof of (?P<n>[\d,]+) hours lawful commercial and [\d,]+ hours lawful residential'
     - field: classroom
       pattern: 'at least (?P<n>[\d,]+) hours of academic classroom training'
+    - field: cat:Commercial
+      pattern: 'proof of (?P<n>[\d,]+) hours lawful commercial'
+    - field: cat:Residential
+      pattern: 'hours lawful commercial and (?P<n>[\d,]+) hours lawful residential'
 
 - set: MI plumbing
   sources:
@@ -50,6 +54,12 @@
     - field: ojt
       scale: 4
       pattern: 'one year of practical plumbing experience consists of at least (?P<n>[\d,]+) hours'
+    - field: cat:Water Supply
+      pattern: 'water distribution system installation, (?P<n>2,000) hours'
+    - field: cat:Drainage/Waste/Vent
+      pattern: 'drain, waste, and vent system installation, (?P<n>2,000) hours'
+    - field: cat:Fixtures
+      pattern: 'fixture installation, (?P<n>1,000) hours'
 
 - set: WA plumbing
   sources:
@@ -57,6 +67,8 @@
   facts:
     - field: ojt
       pattern: 'four years or more \(at least (?P<n>[\d,]+) hours\) working as a plumber trainee'
+    - field: cat:Commercial
+      pattern: 'two years or more \(at least (?P<n>[\d,]+) hours\) must be spent working in commercial or industrial'
 
 - set: ID plumbing
   sources:
@@ -91,3 +103,32 @@
       pattern: 'practical work experience that totals no less than (?P<n>[\d,]+) clock hours as a licensed apprentice'
     - field: classroom
       pattern: '(?P<n>[\d,]+) clock hours of plumbing and gasfitting theory'
+
+- set: CO plumbing residential
+  sources:
+    - https://dpo.colorado.gov/Plumbing/Applications
+  facts:
+    - field: ojt
+      pattern: 'residential plumber[^.]{0,80}?(?:two|2) years \((?P<n>[\d,]+) hours\) of practical experience'
+
+- set: CO plumbing master
+  sources:
+    - https://dpo.colorado.gov/Plumbing/Applications
+  facts:
+    - field: ojt
+      pattern: 'five full-time years \((?P<n>[\d,]+) hours\) of practical experience'
+
+- set: WA plumbing residential-specialty
+  sources:
+    - https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/
+  facts:
+    - field: ojt
+      pattern: '(?:3|three) years or more \(at least (?P<n>[\d,]+) hours\) working in the specialty under supervision of a certified residential or journey level plumber'
+
+- set: WA plumbing residential-service
+  sources:
+    - https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/
+  facts:
+    - field: ojt
+      pattern: 'two years or more \(at least (?P<n>[\d,]+) hours\) working as a plumber trainee under the supervision of a journey level, residential specialty, or residential service'
+

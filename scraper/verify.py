@@ -3,7 +3,7 @@
 
 For every template in rules/requirements.json it:
   1. downloads the official source pages listed in rules/checks.yml,
-  2. checks that every number (ojtTarget, and classroomTarget when above 0) is stated on those pages with the
+  2. checks that every number (ojtTarget, classroomTarget when above 0, and each category minimum) is stated on those pages with the
      same value, using the patterns in checks.yml,
   3. marks the template "verified" (with today's date) only when every number is confirmed, otherwise
      "needs_review" with the reasons,
@@ -34,7 +34,6 @@ from bs4 import BeautifulSoup
 UA = os.environ.get("SCRAPER_USER_AGENT", "Mozilla/5.0 (compatible; HourVaultBot/1.0; +https://redbrooklabs.com)")
 GRACE_DAYS = 7
 DELAY = 1.5
-FIELDS = {"ojt": "ojtTarget", "classroom": "classroomTarget"}
 
 
 def today() -> str:
@@ -93,6 +92,9 @@ def required_fields(t: dict) -> dict[str, float]:
     req = {"ojt": float(t["ojtTarget"])}
     if float(t.get("classroomTarget", 0)) > 0:
         req["classroom"] = float(t["classroomTarget"])
+    # Per-category minimums (Oregon commercial / residential, Washington commercial) are confirmed too.
+    for m in t.get("categoryMinimums") or []:
+        req[f"cat:{m['category']}"] = float(m["hours"])
     return req
 
 
@@ -167,7 +169,8 @@ def main() -> int:
 
     data = json.loads(Path(args.rules).read_text())
     specs = yaml.safe_load(Path(args.checks).read_text())
-    by_key = {f"{t['state']} {t['trade']}": t for t in data["templates"]}
+    # "TX plumbing" for the journeyman template; other credentials add their level: "CO plumbing residential".
+    by_key = {f"{t['state']} {t['trade']}" + (f" {t['level']}" if t.get("level") else ""): t for t in data["templates"]}
     previous = json.loads(Path(args.status).read_text()).get("sets", {}) if Path(args.status).exists() else {}
 
     status: dict = {"generatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat(), "sets": {}}
