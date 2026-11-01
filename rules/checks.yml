@@ -1,0 +1,93 @@
+# Automatic requirement checks for Hour Vault (same mechanism as CE Compass's rules/checks.yml).
+#
+# A template in requirements.json is "verified" only when EVERY number it contains (ojtTarget, and
+# classroomTarget when it is above 0) is matched by a fact below AND the pattern is found on the official
+# source page with the same number. Runs daily on GitHub Actions. If a board edits its page so a number no
+# longer matches, the template drops to "needs_review" the same day and an issue is opened.
+#
+# Fields: ojt -> ojtTarget, classroom -> classroomTarget. `scale: N` multiplies the captured number
+# (Oregon states 3,850 commercial + 3,850 residential; Minnesota states hours per year).
+# Patterns are regular expressions matched case-insensitively against the page text, whitespace collapsed.
+
+- set: TX plumbing
+  sources:
+    - https://tsbpe.texas.gov/wp-content/uploads/forms/TSBPE_JourneymanPlumberExamationApplication.pdf
+    - https://tsbpe.texas.gov/license-types/journeyman
+  facts:
+    - field: ojt
+      pattern: 'at least (?P<n>[\d,]+) hours of experience working in the trade of plumbing'
+    - field: classroom
+      pattern: 'take the (?P<n>\d+)-hour classroom training'
+
+- set: LA plumbing
+  sources:
+    - https://legis.la.gov/Legis/ViewDocument.aspx?d=1320642
+  facts:
+    - field: ojt
+      pattern: 'at least (?P<n>[\d,]+) hours of on-the-job training'
+
+- set: OR plumbing
+  sources:
+    - https://www.oregon.gov/bcd/Formslibrary/2571.pdf
+  facts:
+    - field: ojt
+      scale: 2
+      pattern: 'proof of (?P<n>[\d,]+) hours lawful commercial and [\d,]+ hours lawful residential'
+    - field: classroom
+      pattern: 'at least (?P<n>[\d,]+) hours of academic classroom training'
+
+- set: MI plumbing
+  sources:
+    - https://zeus-milenia.legislature.mi.gov/documents/mcl/pdf/MCL-339-6115.pdf
+  facts:
+    - field: ojt
+      pattern: 'at least (?P<n>[\d,]+) hours of experience gained over a period of at least'
+
+- set: MN plumbing
+  sources:
+    - https://www.revisor.mn.gov/rules/4716.0020/
+  facts:
+    - field: ojt
+      scale: 4
+      pattern: 'one year of practical plumbing experience consists of at least (?P<n>[\d,]+) hours'
+
+- set: WA plumbing
+  sources:
+    - https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/
+  facts:
+    - field: ojt
+      pattern: 'four years or more \(at least (?P<n>[\d,]+) hours\) working as a plumber trainee'
+
+- set: ID plumbing
+  sources:
+    - https://dopl.idaho.gov/wp-content/uploads/2024/09/PLB-Journeyman-Application.pdf
+  facts:
+    - field: ojt
+      pattern: 'verifying (?P<n>[\d,]+) hours of supervised plumbing installation work'
+    - field: classroom
+      pattern: 'completed (?P<n>[\d,]+) hours of instruction at a board approved plumbing'
+
+- set: CO plumbing
+  sources:
+    - https://dpo.colorado.gov/Plumbing/Applications
+  facts:
+    - field: ojt
+      pattern: 'journeyworker plumber.{0,160}?four years \((?P<n>[\d,]+) hours\) of practical experience'
+
+- set: UT plumbing
+  sources:
+    - https://commerce.utah.gov/dopl/plumbing/apply-for-a-journeyman-plumber-license/
+  facts:
+    - field: ojt
+      pattern: '(?P<n>[\d,]+) hours of licensed plumbing experience'
+    - field: classroom
+      pattern: 'apprenticeship education program \((?P<n>[\d,]+) classroom hours\)'
+
+- set: MA plumbing
+  sources:
+    - https://www.mass.gov/doc/248-cmr-1100/download
+  facts:
+    - field: ojt
+      pattern: 'totals no less than (?P<n>[\d,]+) clock hours'
+    - field: classroom
+      pattern: '(?P<n>[\d,]+) clock hours of plumbing and gasfitting theory'

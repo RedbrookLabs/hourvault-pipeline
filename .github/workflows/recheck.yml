@@ -1,0 +1,64 @@
+name: Recheck apprenticeship requirements
+
+on:
+  schedule:
+    - cron: "41 11 * * *"      # daily, 11:41 UTC (about 6:41 AM US Central), after CE Compass's run
+  workflow_dispatch:           # "Run workflow" button in the Actions tab
+  push:                        # re-check right away when requirements or checks change
+    branches: [main]
+    paths:
+      - "rules/requirements.json"
+      - "rules/checks.yml"
+      - "scraper/verify.py"
+
+permissions:
+  contents: write              # commit status + the published feed in docs/
+  issues: write                # open review issues
+
+concurrency:
+  group: requirement-recheck
+  cancel-in-progress: false
+
+jobs:
+  recheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scraper/requirements.txt
+
+      - run: pip install -r scraper/requirements.txt
+
+      - name: Verify every state template against the official pages
+        id: verify
+        run: python scraper/verify.py --report verify-report.md
+
+      - name: Show the report on the run page
+        run: cat verify-report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Save results and publish the feed (GitHub Pages serves docs/)
+        run: |
+          git config user.name "hourvault-monitor"
+          git config user.email "monitor@users.noreply.github.com"
+          git pull --rebase --autostash || true
+          date -u +%F > rules/last-run.txt   # keeps the schedule alive (GitHub pauses idle scheduled workflows)
+          git add rules/status.json rules/source-text rules/last-run.txt docs/manifest.json docs/requirements.json
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+          else
+            git commit -m "recheck: requirements $(date -u +%F)"
+            git push
+          fi
+
+      - name: Open an issue when a state loses its verified status
+        if: steps.verify.outputs.needs_issue == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create requirement-unverified --color D93F0B --description "A state's hours no longer match its official page" 2>/dev/null || true
+          gh issue create --title "Requirements need review $(date -u +%F)" --body-file verify-report.md --label requirement-unverified

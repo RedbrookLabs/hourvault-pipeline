@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "checkedOn": "2026-10-31",
+  "requirements": {
+    "file": "requirements.json",
+    "sha256": "ab4a11f195f36e26f8a65dbf334c8c1798e12f1138e0e342078e88b2f149d6e9",
+    "bytes": 8407,
+    "count": 10
+  }
+}
