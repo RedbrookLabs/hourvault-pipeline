@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedOn": "2026-11-02",
+  "updatedOn": "2026-11-03",
   "categories": {
     "plumbing": [
       "Water Supply",
@@ -51,7 +51,7 @@
         }
       ],
       "verified": true,
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "sourceURLs": [
         "https://dpo.colorado.gov/Plumbing/Applications"
       ]
@@ -70,7 +70,7 @@
       "sourceURL": "https://dpo.colorado.gov/Plumbing/Applications",
       "version": 2,
       "verified": true,
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "sourceURLs": [
         "https://dpo.colorado.gov/Plumbing/Applications"
       ]
@@ -89,7 +89,7 @@
       "sourceURL": "https://dpo.colorado.gov/Plumbing/Applications",
       "version": 2,
       "verified": true,
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "sourceURLs": [
         "https://dpo.colorado.gov/Plumbing/Applications"
       ]
@@ -126,7 +126,7 @@
         }
       ],
       "verified": true,
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "sourceURLs": [
         "https://dopl.idaho.gov/wp-content/uploads/2024/09/PLB-Journeyman-Application.pdf"
       ]
@@ -151,7 +151,7 @@
         }
       ],
       "verified": true,
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "sourceURLs": [
         "https://legis.la.gov/Legis/ViewDocument.aspx?d=1320642"
       ]
@@ -197,7 +197,7 @@
         }
       ],
       "verified": true,
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "sourceURLs": [
         "https://www.law.cornell.edu/regulations/massachusetts/248-CMR-11-02"
       ]
@@ -245,7 +245,7 @@
         }
       ],
       "verified": true,
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "sourceURLs": [
         "https://www.revisor.mn.gov/rules/4716.0020/"
       ]
@@ -289,7 +289,7 @@
         }
       ],
       "verified": true,
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "sourceURLs": [
         "https://www.oregon.gov/bcd/Formslibrary/2571.pdf"
       ]
@@ -342,7 +342,7 @@
         }
       ],
       "verified": true,
-      "verifiedAt": "2026-11-02"
+      "verifiedAt": "2026-11-03"
     },
     {
       "id": "UT-plumbing",
@@ -370,7 +370,7 @@
         }
       ],
       "verified": true,
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "sourceURLs": [
         "https://commerce.utah.gov/dopl/plumbing/apply-for-a-journeyman-plumber-license/"
       ]
@@ -409,7 +409,7 @@
         }
       ],
       "verified": true,
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "sourceURLs": [
         "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/"
       ]
@@ -428,7 +428,7 @@
       "sourceURL": "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/",
       "version": 2,
       "verified": true,
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "sourceURLs": [
         "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/"
       ]
@@ -447,7 +447,7 @@
       "sourceURL": "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/",
       "version": 2,
       "verified": true,
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "sourceURLs": [
         "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/"
       ]
@@ -465,7 +465,7 @@
       "notes": "8,000 hours of legally obtained commercial or residential plumbing installation work while holding a Plumber Trainee Certificate of Fitness. Up to 1,000 hours of trade-related classroom training can count toward the 8,000. Maintenance hours do not count. Work in Alaska without a valid trainee certificate is not counted.",
       "sourceURL": "https://dol.alaska.gov/lss/mi-license-req.html",
       "verified": true,
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "sourceURLs": [
         "https://dol.alaska.gov/lss/mi-license-req.html"
       ]
@@ -484,7 +484,7 @@
       "notes": "4,000 hours of plumbing experience while registered as a Plumber's Apprentice, plus a 24-hour TSBPE-approved training course (not needed with an out-of-state journeyman or master license). Limited to one- and two-family dwellings.",
       "sourceURL": "https://tsbpe.texas.gov/license-types/tradesman/",
       "verified": true,
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "sourceURLs": [
         "https://tsbpe.texas.gov/license-types/tradesman/"
       ]
@@ -502,7 +502,7 @@
       "notes": "At least 2 years and 4,000 hours of plumbing installation work as a licensed trainee plumber under a master plumber. A journeyman-in-training license after a board-approved plumbing course needs 2,000 hours instead; set your own hours if that is your route.",
       "sourceURL": "https://legislature.maine.gov/statutes/32/title32sec3501.html",
       "verified": true,
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "sourceURLs": [
         "https://legislature.maine.gov/statutes/32/title32sec3501.html"
       ]

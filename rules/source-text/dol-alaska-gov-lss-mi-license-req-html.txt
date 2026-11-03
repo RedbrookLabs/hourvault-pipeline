@@ -5,7 +5,7 @@ application packet must include:
 application, fees, proof of current license active for one full year prior to application.
 experience:
 must submit proof of holding license for one full year prior to application.
-origin stateâs requirements must be substantially similar to alaska, as determined by mechanical inspection.
+origin state's requirements must be substantially similar to alaska, as determined by mechanical inspection.
 see list of states here:
 mi reciprocity .
 test:
@@ -22,7 +22,7 @@ application packet must include:
 application, fees, proof of current license active for one full year prior to application.
 experience:
 must submit proof of holding license for one full year prior to application.
-origin stateâs requirements must be substantially similar to alaska, as determined by mechanical inspection.
+origin state's requirements must be substantially similar to alaska, as determined by mechanical inspection.
 see list of states here:
 mi reciprocity .
 test:
@@ -350,8 +350,8 @@ experience:
 at least six months of documented, hands-on experience in this state as a chuck tender, driller, or helper of a holder of a certificate of fitness.
 other:
 criminal background requirements in 8 aac 62.020-030.
-applicant may instead submit the applicantâs original documentation issued by the united states bureau of alcohol, tobacco, firearms and explosives (usatfe) showing the applicantâs successful background check conducted within the 18 months preceding the date of application by usatfe for the purposes of obtaining a federal license for the transportation, shipping, receiving, or possession of explosive materials.
-this is either the federal clearance letter showing applicantâs name in the responsible person section, or confirmation of a successful background check.
+applicant may instead submit the applicant's original documentation issued by the united states bureau of alcohol, tobacco, firearms and explosives (usatfe) showing the applicant's successful background check conducted within the 18 months preceding the date of application by usatfe for the purposes of obtaining a federal license for the transportation, shipping, receiving, or possession of explosive materials.
+this is either the federal clearance letter showing applicant's name in the responsible person section, or confirmation of a successful background check.
 requires completion of 16-hour department-approved course no more than 90 days prior to application.
 test:
 department examination required.
@@ -497,5 +497,5 @@ no fee duration:
 1 calendar year (expires december 31 st ) renewal:
 submit application as above with copy of qei-1 certification, copy of continuing education certificate, and notice of any official complaints, criminal, or civil actions against the inspector, pending or otherwise, prior to the renewal application being submitted.
 last updated:
-october 14, 2026 accessibility - oeo statement - terms of use - privacy - copyright info department of labor & workforce development p.o.
+november 2, 2026 accessibility - oeo statement - terms of use - privacy - copyright info department of labor & workforce development p.o.
 box 111149 juneau, ak 99811 state of alaska myalaska departments state employees copyright © state of alaska · department of labor & workforce development · email us
