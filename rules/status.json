@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-06T18:24:03+00:00",
+  "generatedAt": "2026-11-07T16:58:57+00:00",
   "sets": {
     "TX-plumbing": {
       "set": "TX plumbing",
       "status": "verified",
-      "checkedAt": "2026-11-06",
-      "lastAttempt": "2026-11-06",
+      "checkedAt": "2026-11-07",
+      "lastAttempt": "2026-11-07",
       "sources": [
         "https://tsbpe.texas.gov/wp-content/uploads/forms/TSBPE_JourneymanPlumberExamationApplication.pdf",
         "https://tsbpe.texas.gov/license-types/journeyman"
@@ -19,8 +19,8 @@
     "LA-plumbing": {
       "set": "LA plumbing",
       "status": "verified",
-      "checkedAt": "2026-11-06",
-      "lastAttempt": "2026-11-06",
+      "checkedAt": "2026-11-07",
+      "lastAttempt": "2026-11-07",
       "sources": [
         "https://legis.la.gov/Legis/ViewDocument.aspx?d=1320642"
       ],
@@ -32,8 +32,8 @@
     "OR-plumbing": {
       "set": "OR plumbing",
       "status": "verified",
-      "checkedAt": "2026-11-06",
-      "lastAttempt": "2026-11-06",
+      "checkedAt": "2026-11-07",
+      "lastAttempt": "2026-11-07",
       "sources": [
         "https://www.oregon.gov/bcd/Formslibrary/2571.pdf"
       ],
@@ -48,8 +48,8 @@
     "MN-plumbing": {
       "set": "MN plumbing",
       "status": "verified",
-      "checkedAt": "2026-11-06",
-      "lastAttempt": "2026-11-06",
+      "checkedAt": "2026-11-07",
+      "lastAttempt": "2026-11-07",
       "sources": [
         "https://www.revisor.mn.gov/rules/4716.0020/"
       ],
@@ -64,8 +64,8 @@
     "WA-plumbing": {
       "set": "WA plumbing",
       "status": "verified",
-      "checkedAt": "2026-11-06",
-      "lastAttempt": "2026-11-06",
+      "checkedAt": "2026-11-07",
+      "lastAttempt": "2026-11-07",
       "sources": [
         "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/"
       ],
@@ -78,8 +78,8 @@
     "ID-plumbing": {
       "set": "ID plumbing",
       "status": "verified",
-      "checkedAt": "2026-11-06",
-      "lastAttempt": "2026-11-06",
+      "checkedAt": "2026-11-07",
+      "lastAttempt": "2026-11-07",
       "sources": [
         "https://dopl.idaho.gov/wp-content/uploads/2024/09/PLB-Journeyman-Application.pdf"
       ],
@@ -92,8 +92,8 @@
     "CO-plumbing": {
       "set": "CO plumbing",
       "status": "verified",
-      "checkedAt": "2026-11-06",
-      "lastAttempt": "2026-11-06",
+      "checkedAt": "2026-11-07",
+      "lastAttempt": "2026-11-07",
       "sources": [
         "https://dpo.colorado.gov/Plumbing/Applications"
       ],
@@ -105,8 +105,8 @@
     "UT-plumbing": {
       "set": "UT plumbing",
       "status": "verified",
-      "checkedAt": "2026-11-06",
-      "lastAttempt": "2026-11-06",
+      "checkedAt": "2026-11-07",
+      "lastAttempt": "2026-11-07",
       "sources": [
         "https://commerce.utah.gov/dopl/plumbing/apply-for-a-journeyman-plumber-license/"
       ],
@@ -119,8 +119,8 @@
     "MA-plumbing": {
       "set": "MA plumbing",
       "status": "verified",
-      "checkedAt": "2026-11-06",
-      "lastAttempt": "2026-11-06",
+      "checkedAt": "2026-11-07",
+      "lastAttempt": "2026-11-07",
       "sources": [
         "https://www.law.cornell.edu/regulations/massachusetts/248-CMR-11-02"
       ],
@@ -133,8 +133,8 @@
     "CO-plumbing-residential": {
       "set": "CO plumbing residential",
       "status": "verified",
-      "checkedAt": "2026-11-06",
-      "lastAttempt": "2026-11-06",
+      "checkedAt": "2026-11-07",
+      "lastAttempt": "2026-11-07",
       "sources": [
         "https://dpo.colorado.gov/Plumbing/Applications"
       ],
@@ -146,8 +146,8 @@
     "CO-plumbing-master": {
       "set": "CO plumbing master",
       "status": "verified",
-      "checkedAt": "2026-11-06",
-      "lastAttempt": "2026-11-06",
+      "checkedAt": "2026-11-07",
+      "lastAttempt": "2026-11-07",
       "sources": [
         "https://dpo.colorado.gov/Plumbing/Applications"
       ],
@@ -159,8 +159,8 @@
     "WA-plumbing-residential-specialty": {
       "set": "WA plumbing residential-specialty",
       "status": "verified",
-      "checkedAt": "2026-11-06",
-      "lastAttempt": "2026-11-06",
+      "checkedAt": "2026-11-07",
+      "lastAttempt": "2026-11-07",
       "sources": [
         "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/"
       ],
@@ -172,8 +172,8 @@
     "WA-plumbing-residential-service": {
       "set": "WA plumbing residential-service",
       "status": "verified",
-      "checkedAt": "2026-11-06",
-      "lastAttempt": "2026-11-06",
+      "checkedAt": "2026-11-07",
+      "lastAttempt": "2026-11-07",
       "sources": [
         "https://lni.wa.gov/licensing-permits/plumbing/plumber-certification/"
       ],
@@ -185,8 +185,8 @@
     "AK-plumbing": {
       "set": "AK plumbing",
       "status": "verified",
-      "checkedAt": "2026-11-06",
-      "lastAttempt": "2026-11-06",
+      "checkedAt": "2026-11-07",
+      "lastAttempt": "2026-11-07",
       "sources": [
         "https://dol.alaska.gov/lss/mi-license-req.html"
       ],
@@ -198,8 +198,8 @@
     "TX-plumbing-tradesman-limited": {
       "set": "TX plumbing tradesman-limited",
       "status": "verified",
-      "checkedAt": "2026-11-06",
-      "lastAttempt": "2026-11-06",
+      "checkedAt": "2026-11-07",
+      "lastAttempt": "2026-11-07",
       "sources": [
         "https://tsbpe.texas.gov/license-types/tradesman/"
       ],
@@ -212,8 +212,8 @@
     "ME-plumbing": {
       "set": "ME plumbing",
       "status": "verified",
-      "checkedAt": "2026-11-06",
-      "lastAttempt": "2026-11-06",
+      "checkedAt": "2026-11-07",
+      "lastAttempt": "2026-11-07",
       "sources": [
         "https://legislature.maine.gov/statutes/32/title32sec3501.html"
       ],
