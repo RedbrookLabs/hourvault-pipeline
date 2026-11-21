@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "checkedOn": "2026-11-20",
+  "checkedOn": "2026-11-21",
   "requirements": {
     "file": "requirements.json",
-    "sha256": "a7656ddbee5499b0d07e2b62f342ed41bbd97192b39e5a16c2cb3df39095f5c9",
+    "sha256": "a1228bdf1f1680b3825d6d5bcfc5a4a6c5dd0d7b662884c7139b91753665b398",
     "bytes": 23294,
     "count": 16
   }
