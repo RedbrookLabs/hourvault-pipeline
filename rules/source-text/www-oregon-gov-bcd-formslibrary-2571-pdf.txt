@@ -20,11 +20,11 @@ zip:
 email:
 social security number:
 (required, ors 25.785) step 2 license pathway (choose one) pathway 1 your application must include the following:
- proof of at least 576 hours of plumbing-related classroom training  proof of 3,850 hours of lawful commercial on-the-job ex perience  proof of 3,850 hours of lawful residential on-the-job ex perience pathway 2 your application must include the following:
- proof of 7,700 hours of commercial work experience la wfully obtained while holding a license with a similar scope of work to an oregon journeyman plumber (individual installer license)  proof of 7,700 hours of residential work experience lawfully obtained while holding a license with a similar scope of work to an oregon journeyman plumber (individual installer license) step 3 test location select a test location from the list below.
+ proof of at least 576 hours of plumbing-related classroom training  proof of 3,850 hours of lawful commercial on-the-job experience  proof of 3,850 hours of lawful residential on-the-job experience pathway 2 your application must include the following:
+ proof of 7,700 hours of commercial work experience lawfully obtained while holding a license with a similar scope of work to an oregon journeyman plumber (individual installer license)  proof of 7,700 hours of residential work experience lawfully obtained while holding a license with a similar scope of work to an oregon journeyman plumber (individual installer license) step 3 test location select a test location from the list below.
 more details can be found at www.oregon.gov/bcd/licensing/pages/exam.aspx.
-be nd eugene hermiston klamath falls o ntario pendleton portland roseburg s alem w hite city d epartment use only approved denied signature:
-d ate:
+be nd eugene hermiston klamath falls o ntario pendleton portland roseburg s alem w hite city department use only approved denied signature:
+date:
 comments:
 make check or money order payable to department of consumer and business services.
 if paying by credit card, applicant must sign credit card information box.
@@ -115,7 +115,7 @@ verification of equivalent training and experience must come from one of the fol
 • current or previous employer actively involved in the applicant's work;
 or • if employer is out of business, deceased or otherwise unlocatable, the applicant's supervisor;
 or • if neither employer nor supervisor can be located, from a co-worker directly involved in work performed by the applicant.
-co-worker verification must be accompanied by employment records or other supporting doc umentation that co-worker worked with applicant and has knowledge of the work performed.
+co-worker verification must be accompanied by employment records or other supporting documentation that co-worker worked with applicant and has knowledge of the work performed.
 applicants relying on military experience must submit:
 • official documentation from a supervising official showing type and approximate hours of work experience;
 or • if supervisory officials cannot be located, other reliable documentation verifying training and experience.
@@ -137,7 +137,7 @@ additional sheets may be attached if necessary.
 i certify that i know the applicant and have direct knowledge that the applicant was employed as follows:
 employer:
 position/title:
-p eriod of employment:
+period of employment:
 duties, skills, functions:
 i certify that the information included in this form is true and correct.
 verifier's name (print):
